@@ -1,22 +1,22 @@
 //Exercícios com a Lógica, arrays e Objetos
 //Carrinho de Compras de E-commerce
 const prompt = require('prompt-sync')()
-let Ecommerce = {
-    Cliente: 'PEDRO',
-    Assinatura1: 'PRIME', 
-    Assinatura2: 'PADRAO',
-    Produto: []
+let nomeCliente = prompt("Digite o nome do cliente: ")
+let tipoAssinatura = prompt("Digite o tipo de assinatura (Prime/ Padrão):")
+let p1 = parseFloat(prompt("Digite o preço do produto 1: "))
+let p2 = parseFloat(prompt("Digite o preço do produto 2: "))
+let p3 = parseFloat(prompt("Digite o preço do produto 3: "))
+let total = p1 + p2 + p3
+let freteGratis = false
+if (total > 200 || tipoAssinatura === "Prime") {
+    freteGratis = true
+} else {
+    total += 30
 }
-    let Feijao = parseFloat(prompt ("Digite o preço: "))
-    let Arroz = parseFloat(prompt ("Digite o preço do Arroz: "))
-    let Macarrao = parseFloat(prompt ("Digite o preço do macarrão: "))
-    let soma = (Ecommerce.Feijao[0]+ Ecommerce.Arroz[1]+Ecommerce.Macarrao[2])
-    console.log (soma)
-Ecommerce.Produto.push (Feijao, Arroz, Macarrao)
-media= (Ecommerce.Produto[0] + Ecommerce.Produto[1] + Ecommerce.Produto[2])/3
-if (media > 200 || Ecommerce.Assinatura1){
-console.log ("Parabéns você ganhou Frete Grátis")
-}
-  else {
-    console.log (Ecommerce.Produto + 30)
-  }  
+console.log ("Cliente:", nomeCliente)
+console.log ("Assinatura:", tipoAssinatura)
+console.log ("Produto 1:", p1)
+console.log ("Produto 2:", p2)
+console.log ("Produto 3:", p3)
+console.log ("Frete grátis:", freteGratis ? "Sim" : "Não")
+console.log ("Total a pagar: R$ " + total)
