@@ -8,7 +8,7 @@ let Ecommerce = {
     Produto: []
 }
     let Feijao = parseFloat(prompt ("Digite o preço: "))
-    let Arroz = parseFloat(prompt ("Digite o preço do Arroz"))
+    let Arroz = parseFloat(prompt ("Digite o preço do Arroz: "))
     let Macarrao = parseFloat(prompt ("Digite o preço do macarrão: "))
     let soma = (Ecommerce.Feijao[0]+ Ecommerce.Arroz[1]+Ecommerce.Macarrao[2])
     console.log (soma)
