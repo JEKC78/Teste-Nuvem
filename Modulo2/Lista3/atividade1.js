@@ -3,7 +3,7 @@
 const prompt = require('prompt-sync')()
 let Ecommerce = {
     Cliente: 'PEDRO',
-    Assinatura1: 'PRIME',
+    Assinatura1: 'PRIME', 
     Assinatura2: 'PADRAO',
     Produto: []
 }
