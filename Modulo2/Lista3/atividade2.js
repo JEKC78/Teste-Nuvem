@@ -27,4 +27,4 @@ console.log("Distâncias (últimas 3 corridas):", distancias)
 if (selo !== "") {
     console.log("Selo:", selo)
 }
-console.log("Média das distâncias:", parseInt(media))
+console.log("Média das distâncias:", media)

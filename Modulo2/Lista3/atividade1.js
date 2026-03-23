@@ -2,7 +2,7 @@
 //Carrinho de Compras de E-commerce
 const prompt = require('prompt-sync')()
 let nomeCliente = prompt("Digite o nome do cliente: ")
-let tipoAssinatura = prompt("Digite o tipo de assinatura (Prime/ Padrao):")
+let tipoAssinatura = prompt("Digite o tipo de assinatura (prime/ padrao): ")
 let p1 = parseFloat(prompt("Digite o preço do produto 1: "))
 let p2 = parseFloat(prompt("Digite o preço do produto 2: "))
 let p3 = parseFloat(prompt("Digite o preço do produto 3: "))

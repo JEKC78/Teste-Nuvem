@@ -11,7 +11,7 @@ let fidelidade ={
        milhas : 3000},
     voo2 = {
     destino : "Italia",
-    milhas : 7500}
+    milhas : 1500}
     ]
     
 }
@@ -30,5 +30,4 @@ if (soma > 5000){
  
 else {
     console.log ("Parabéns você é categoria: ",fidelidade.categoriaG)    
-    }
- //console.log (fidelidade) 
+    } 
