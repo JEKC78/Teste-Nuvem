@@ -19,4 +19,4 @@ let passageiro = {
     passageiro.entradaPermitida = 'sim'
     
   }
-  console.log(passageiro)
+  console.log(passageiro);
