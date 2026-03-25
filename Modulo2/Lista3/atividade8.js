@@ -21,4 +21,4 @@ else {
     console.log ('openBarAberto');
     
 }
-    console.log ('Fechamento financeiro:R$'+ gas);
+    console.log ('Fechamento financeiro da BKL:R$'+ gas);
