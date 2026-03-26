@@ -1,0 +1,24 @@
+
+//Exercícios com a Lógica, arrays e Objetos
+//Diário de Leituras em Aplicativos de Educação Literária
+/*Uma escola digital quer gamificar o hábito de leitura com um BookTracker. Crie o registro de leitura de
+um aluno contendo o nome , os pontosDeLeitura (inicie em 10) e uma lista chamada
+historicoDias contendo o registro dos dois últimos dias lidos (cada item é um objeto com data
+e paginasLidas ).
+Peça ao aluno para registrar sua leitura de hoje informando a data atual e as páginas lidas. Crie o
+novo registro e o inclua na lista do histórico. Avalie a constância: verifique o objeto focado apenas
+neste último dia que acabou de ser inserido. Se a quantidade de páginas for maior que 50 E ele já
+tiver mais de 0 pontos de leitura, multiplique os pontos dele por 2 e altere a propriedade data desse
+registro inserindo no final " - Super Leitor!". Se a leitura for inferior a 10 páginas, diminua os pontos de
+leitura pela metade. Exiba o painel interativo do aluno com os pontos atualizados e o histórico.*/
+let nota = parseFloat(prompt('Digite sua nota:'))
+console.log (nota)
+switch (true){
+case (nota >= 90 && nota <= 100):
+    console.log ('Nota A');
+    break;
+case (nota >= 80 && nota <= 89):
+    console.log ('Nota B');
+    break;
+case (nota >= 70 && nota <= 79):
+    console.log ('Nota C');

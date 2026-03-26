@@ -25,7 +25,7 @@ switch (resultado){
 
 
 }
-else if (operacao === "-"){
+ (operacao === "-"){
     resultado = n1 - n2
 }
 else if (operacao === "*"){
